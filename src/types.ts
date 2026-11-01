@@ -1,0 +1,2 @@
+export type Property = { id: string; name: string; location: string; type: string; price: number; tokenPrice: number; yield: number; funded: number; investors: number; image: string; status: 'Open' | 'Almost funded' | 'Fully funded'; description: string; };
+export type WalletState = { publicKey: string; network: string };
